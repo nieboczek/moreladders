@@ -8,15 +8,17 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "sources": "https://github.com/nieboczek/moreladders"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "nieboczek.moreladders.MoreLaddersFabric"
+        ],
+        "client": [
+            "nieboczek.moreladders.MoreLaddersFabricClient"
         ]
     },
     "mixins": [
@@ -28,9 +30,5 @@
         "fabric-api": "*",
         "minecraft": "~${minecraft_version}",
         "java": ">=${java_version}"
-    },
-    "suggests": {
-        "another-mod": "*"
     }
 }
-  

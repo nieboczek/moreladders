@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "more-ladders",
+  "key": {
+    "|": "minecraft:iron_nugget",
+    "#": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "| |",
+    "|#|",
+    "| |"
+  ],
+  "result": {
+    "id": "moreladders:iron_ladder",
+    "count": 4
+  }
+}

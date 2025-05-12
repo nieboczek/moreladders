@@ -1,0 +1,7 @@
+{
+	"parent": "moreladders:block/copper_ladder",
+	"textures": {
+		"0": "moreladders:block/oxidized_copper_ladder",
+		"particle": "moreladders:block/oxidized_copper_ladder"
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "more-ladders",
+  "key": {
+    "|": "minecraft:stick",
+    "#": "minecraft:birch_planks"
+  },
+  "pattern": [
+    "| |",
+    "|#|",
+    "| |"
+  ],
+  "result": {
+    "id": "moreladders:birch_ladder",
+    "count": 4
+  }
+}

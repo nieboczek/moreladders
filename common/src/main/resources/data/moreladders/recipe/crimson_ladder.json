@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "more-ladders",
+  "key": {
+    "|": "minecraft:stick",
+    "#": "minecraft:crimson_planks"
+  },
+  "pattern": [
+    "| |",
+    "|#|",
+    "| |"
+  ],
+  "result": {
+    "id": "moreladders:crimson_ladder",
+    "count": 4
+  }
+}

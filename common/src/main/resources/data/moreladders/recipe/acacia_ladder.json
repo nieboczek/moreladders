@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "more-ladders",
+  "key": {
+    "|": "minecraft:stick",
+    "#": "minecraft:acacia_planks"
+  },
+  "pattern": [
+    "| |",
+    "|#|",
+    "| |"
+  ],
+  "result": {
+    "id": "moreladders:acacia_ladder",
+    "count": 4
+  }
+}

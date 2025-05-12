@@ -1,0 +1,7 @@
+{
+  "parent": "moreladders:block/2d_ladder",
+  "textures": {
+    "particle": "moreladders:block/dark_oak_ladder",
+    "texture": "moreladders:block/dark_oak_ladder"
+  }
+}

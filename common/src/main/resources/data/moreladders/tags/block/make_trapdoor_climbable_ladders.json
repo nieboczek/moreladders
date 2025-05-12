@@ -1,0 +1,27 @@
+{
+  "values": [
+    "minecraft:ladder",
+    "moreladders:acacia_ladder",
+    "moreladders:birch_ladder",
+    "moreladders:chain_ladder",
+    "moreladders:crimson_ladder",
+    "moreladders:dark_oak_ladder",
+    "moreladders:iron_ladder",
+    "moreladders:jungle_ladder",
+    "moreladders:spruce_ladder",
+    "moreladders:warped_ladder",
+    "moreladders:cherry_ladder",
+    "moreladders:bamboo_ladder",
+    "moreladders:mangrove_ladder",
+    "moreladders:gold_ladder",
+    "moreladders:pale_oak_ladder",
+    "moreladders:copper_ladder",
+    "moreladders:exposed_copper_ladder",
+    "moreladders:weathered_copper_ladder",
+    "moreladders:oxidized_copper_ladder",
+    "moreladders:waxed_copper_ladder",
+    "moreladders:waxed_exposed_copper_ladder",
+    "moreladders:waxed_weathered_copper_ladder",
+    "moreladders:waxed_oxidized_copper_ladder"
+  ]
+}

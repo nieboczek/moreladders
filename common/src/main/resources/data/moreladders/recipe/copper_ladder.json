@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "more-ladders",
+  "key": {
+    "#": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "result": {
+    "id": "moreladders:copper_ladder",
+    "count": 4
+  }
+}

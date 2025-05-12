@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "more-ladders",
+  "ingredients": [
+    "moreladders:copper_ladder",
+    "minecraft:honeycomb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "moreladders:waxed_copper_ladder"
+  }
+}

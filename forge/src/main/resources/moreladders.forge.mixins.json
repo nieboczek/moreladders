@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nieboczek.moreladders.mixin",
+  "compatibilityLevel": "JAVA_18",
+  "mixins": [
+    "AxeItemMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

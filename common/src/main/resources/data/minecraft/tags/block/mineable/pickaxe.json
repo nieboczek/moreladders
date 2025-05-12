@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "moreladders:iron_ladder",
+    "moreladders:chain_ladder",
+    "moreladders:gold_ladder",
+    "moreladders:copper_ladder",
+    "moreladders:exposed_copper_ladder",
+    "moreladders:weathered_copper_ladder",
+    "moreladders:oxidized_copper_ladder",
+    "moreladders:waxed_copper_ladder",
+    "moreladders:waxed_exposed_copper_ladder",
+    "moreladders:waxed_weathered_copper_ladder",
+    "moreladders:waxed_oxidized_copper_ladder"
+  ]
+}
