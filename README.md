@@ -13,20 +13,20 @@ Got ideas or feedback? [Open an issue on GitHub](https://github.com/nieboczek/mo
 
 # Recipes
 <details><summary>Click here to view all the recipes</summary>
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/acacia.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/bamboo.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/birch.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/chain.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/cherry.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/crimson.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/dark_oak.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/iron.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/jungle.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/mangrove.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/oak.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/spruce.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/warped.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/gold.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/pale_oak.png" width="350">
-<img src="https://raw.githubusercontent.com/nieboczek/moreladders/1.20.4/images/copper.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/acacia.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/bamboo.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/birch.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/chain.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/cherry.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/crimson.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/dark_oak.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/iron.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/jungle.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/mangrove.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/oak.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/spruce.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/warped.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/gold.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/pale_oak.png" width="350">
+<img src="https://raw.githubusercontent.com/nieboczek/moreladders/images/copper.png" width="350">
 </details>
