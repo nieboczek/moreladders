@@ -1,0 +1,4 @@
+// 1.21.1	2025-11-20T16:15:29.4232037	Tags for minecraft:block mod id moreladders
+decd2dbcdeeb8287a6939c09adb1046cc4ec9b2b data/minecraft/tags/block/climbable.json
+f3473011a7caa7ac971cbcdc26babcbf29397e90 data/minecraft/tags/block/mineable/axe.json
+98d512720501bc1e3293a10700db1eeeff149589 data/minecraft/tags/block/mineable/pickaxe.json

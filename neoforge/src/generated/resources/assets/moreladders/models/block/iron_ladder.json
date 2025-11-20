@@ -1,0 +1,7 @@
+{
+  "parent": "moreladders:block/base_ladder",
+  "textures": {
+    "particle": "moreladders:block/iron_ladder",
+    "texture": "moreladders:block/iron_ladder"
+  }
+}

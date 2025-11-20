@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "|": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "pattern": [
+    "| |",
+    "|#|",
+    "| |"
+  ],
+  "result": {
+    "count": 4,
+    "id": "moreladders:bamboo_ladder"
+  }
+}
