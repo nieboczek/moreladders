@@ -11,7 +11,7 @@ import nieboczek.moreladders.block.MLBlocks;
 import java.util.concurrent.CompletableFuture;
 
 public final class RecipeGenerator extends RecipeProvider {
-    public RecipeGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
+    RecipeGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
         super(output, registries);
     }
 

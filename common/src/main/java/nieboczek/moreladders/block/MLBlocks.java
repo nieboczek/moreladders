@@ -38,21 +38,6 @@ public final class MLBlocks {
     public static final Block WAXED_WEATHERED_COPPER_LADDER = oxidizableLadder("waxed_weathered_copper_ladder", ladderProps(), WeatheringCopper.WeatherState.WEATHERED);
     public static final Block WAXED_OXIDIZED_COPPER_LADDER = oxidizableLadder("waxed_oxidized_copper_ladder", ladderProps(), WeatheringCopper.WeatherState.OXIDIZED);
 
-    public static final BiMap<Block, Block> OXIDIZING = ImmutableBiMap.of(
-            COPPER_LADDER, EXPOSED_COPPER_LADDER,
-            EXPOSED_COPPER_LADDER, WEATHERED_COPPER_LADDER,
-            WEATHERED_COPPER_LADDER, OXIDIZED_COPPER_LADDER
-    );
-    public static final BiMap<Block, Block> INVERSE_OXIDIZING = OXIDIZING.inverse();
-
-    public static final BiMap<Block, Block> WAXING = ImmutableBiMap.of(
-            COPPER_LADDER, WAXED_COPPER_LADDER,
-            EXPOSED_COPPER_LADDER, WAXED_EXPOSED_COPPER_LADDER,
-            WEATHERED_COPPER_LADDER, WAXED_WEATHERED_COPPER_LADDER,
-            OXIDIZED_COPPER_LADDER, WAXED_OXIDIZED_COPPER_LADDER
-    );
-    public static final BiMap<Block, Block> UNWAXING = WAXING.inverse();
-
     private static Block ladder(String id, BlockBehaviour.Properties properties) {
         final Block block = MoreLadders.PLATFORM.newLadderBlock(properties);
         BLOCKS.put(MoreLadders.id(id), block);

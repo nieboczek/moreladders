@@ -1,0 +1,16 @@
+{
+  "values": {
+    "moreladders:copper_ladder": {
+      "waxed": "moreladders:waxed_copper_ladder"
+    },
+    "moreladders:exposed_copper_ladder": {
+      "waxed": "moreladders:waxed_exposed_copper_ladder"
+    },
+    "moreladders:oxidized_copper_ladder": {
+      "waxed": "moreladders:waxed_oxidized_copper_ladder"
+    },
+    "moreladders:weathered_copper_ladder": {
+      "waxed": "moreladders:waxed_weathered_copper_ladder"
+    }
+  }
+}

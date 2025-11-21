@@ -68,12 +68,6 @@ public class OxidizableLadder extends Block implements WeatheringCopper {
     }
 
     @Override
-    public Optional<BlockState> getNext(BlockState state) {
-        Block block = MLBlocks.OXIDIZING.get(state.getBlock());
-        return block != null ? Optional.of(block.withPropertiesOf(state)) : Optional.empty();
-    }
-
-    @Override
     public WeatherState getAge() {
         return weatherState;
     }

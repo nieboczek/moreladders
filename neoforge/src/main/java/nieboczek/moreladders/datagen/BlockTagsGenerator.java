@@ -11,7 +11,7 @@ import nieboczek.moreladders.block.MLBlocks;
 import java.util.concurrent.CompletableFuture;
 
 public final class BlockTagsGenerator extends BlockTagsProvider {
-    public BlockTagsGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, ExistingFileHelper exFileHelper) {
+    BlockTagsGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, ExistingFileHelper exFileHelper) {
         super(output, lookupProvider, MoreLadders.MOD_ID, exFileHelper);
     }
 

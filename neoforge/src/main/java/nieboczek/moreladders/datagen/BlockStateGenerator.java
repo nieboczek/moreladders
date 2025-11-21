@@ -10,7 +10,7 @@ import nieboczek.moreladders.MoreLadders;
 import nieboczek.moreladders.block.MLBlocks;
 
 public final class BlockStateGenerator extends BlockStateProvider {
-    public BlockStateGenerator(PackOutput output, ExistingFileHelper exFileHelper) {
+    BlockStateGenerator(PackOutput output, ExistingFileHelper exFileHelper) {
         super(output, MoreLadders.MOD_ID, exFileHelper);
     }
 

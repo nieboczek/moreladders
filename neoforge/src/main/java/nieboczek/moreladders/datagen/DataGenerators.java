@@ -25,6 +25,7 @@ public final class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         generator.addProvider(event.includeClient(), new BlockStateGenerator(output, exFileHelper));
+        generator.addProvider(event.includeServer(), new DataMapGenerator(output, lookupProvider));
         generator.addProvider(event.includeServer(), new BlockTagsGenerator(output, lookupProvider, exFileHelper));
         generator.addProvider(event.includeServer(), new RecipeGenerator(output, lookupProvider));
         generator.addProvider(event.includeServer(), new LootTableProvider(

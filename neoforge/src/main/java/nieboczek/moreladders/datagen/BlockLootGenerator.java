@@ -9,7 +9,7 @@ import nieboczek.moreladders.block.MLBlocks;
 import java.util.Set;
 
 public final class BlockLootGenerator extends BlockLootSubProvider {
-    public BlockLootGenerator(HolderLookup.Provider registries) {
+    BlockLootGenerator(HolderLookup.Provider registries) {
         super(Set.of(), FeatureFlags.DEFAULT_FLAGS, registries);
     }
 
