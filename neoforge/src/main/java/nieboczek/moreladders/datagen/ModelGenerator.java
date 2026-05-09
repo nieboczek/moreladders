@@ -35,59 +35,21 @@ public final class ModelGenerator extends ModelProvider {
     }
 
     private void ladder(Block block) {
-//        String path = BuiltInRegistries.BLOCK.getKey(block).getPath();
-//        ModelFile model = models().withExistingParent(path, modLoc("block/base_ladder"))
-//                .texture("texture", blockTexture(block))
-//                .texture("particle", blockTexture(block));
-
-//        horizontalBlock(block, model);
         blockModels.createHorizontallyRotatedBlock(
                 block,
                 // TODO: +waterlogged=false/true (idk if required)
                 ladderProvider
         );
 
-        // {
-        //   "parent": "minecraft:item/generated",
-        //   "textures": {
-        //-    "layer0": "moreladders:block/acacia_ladder"
-        //+    "layer0": "moreladders:item/acacia_ladder"
-        //   }
-        // }
-//        itemModels.generateFlatItem(block.asItem(), ModelTemplates.FLAT_ITEM);
         itemModels.itemModelOutput.accept(block.asItem(), ItemModelUtils.plainModel(
-                //itemModels.createFlatItemModel(block.asItem(), ModelTemplates.FLAT_ITEM)
                 ModelTemplates.FLAT_ITEM.create(ModelLocationUtils.getModelLocation(block.asItem()), TextureMapping.layer0(block), itemModels.modelOutput)
         ));
-//        itemModels.withExistingParent(path, mcLocation("item/generated"))
-//                .texture("layer0", blockTexture(block));
     }
 
     private void deriveFromUnwaxed(Block waxed, Block unwaxed) {
-//        String waxedPath = BuiltInRegistries.BLOCK.getKey(waxed).getPath();
-//        ModelFile unwaxedModel = models().getExistingFile(BuiltInRegistries.BLOCK.getKey(unwaxed));
-
-//        MultiVariantGenerator.dispatch(block, variant);
-//        blockModels.blockStateOutput.accept();
-        // TODO: the below 'new' method generates a model we don't need
-//        blockModels.createHorizontallyRotatedBlock(
-//                waxed,
-//                ladderProvider
-//        );
-
         MultiVariant model = BlockModelGenerators.plainVariant(ModelLocationUtils.getModelLocation(unwaxed));
         blockModels.blockStateOutput.accept(MultiVariantGenerator.dispatch(waxed, model).with(BlockModelGenerators.ROTATION_HORIZONTAL_FACING));
-
-//        horizontalBlock(waxed, unwaxedModel);
-//        itemModels.generateFlatItem(unwaxed.asItem(), ModelTemplates.FLAT_ITEM);
-
-        itemModels.itemModelOutput.accept(waxed.asItem(), ItemModelUtils.plainModel(
-                //itemModels.createFlatItemModel(waxed.asItem(), ModelTemplates.FLAT_ITEM)
-                ModelLocationUtils.getModelLocation(unwaxed)
-        ));
-
-//        items.withExistingParent(waxedPath, mcLocation("item/generated"))
-//                .texture("layer0", blockTexture(unwaxed));
+        itemModels.itemModelOutput.accept(waxed.asItem(), ItemModelUtils.plainModel(ModelLocationUtils.getModelLocation(unwaxed.asItem())));
     }
 
     @Override
@@ -113,6 +75,7 @@ public final class ModelGenerator extends ModelProvider {
         ladder(MLBlocks.EXPOSED_COPPER_LADDER);
         ladder(MLBlocks.WEATHERED_COPPER_LADDER);
         ladder(MLBlocks.OXIDIZED_COPPER_LADDER);
+
         deriveFromUnwaxed(MLBlocks.WAXED_COPPER_LADDER, MLBlocks.COPPER_LADDER);
         deriveFromUnwaxed(MLBlocks.WAXED_EXPOSED_COPPER_LADDER, MLBlocks.EXPOSED_COPPER_LADDER);
         deriveFromUnwaxed(MLBlocks.WAXED_WEATHERED_COPPER_LADDER, MLBlocks.WEATHERED_COPPER_LADDER);
