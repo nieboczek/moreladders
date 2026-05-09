@@ -53,6 +53,7 @@ public final class RecipeGenerator extends RecipeProvider {
          ladder(Items.BAMBOO_PLANKS, Items.BAMBOO, MLBlocks.BAMBOO_LADDER);
          ladder(Items.MANGROVE_PLANKS, Items.STICK, MLBlocks.MANGROVE_LADDER);
          ladder(Items.GOLD_INGOT, Items.GOLD_NUGGET, MLBlocks.GOLD_LADDER);
+         ladder(Items.PALE_OAK_PLANKS, Items.STICK, MLBlocks.PALE_OAK_LADDER);
          ladder(Items.COPPER_INGOT, Items.COPPER_INGOT, MLBlocks.COPPER_LADDER);
 
          wax(MLBlocks.COPPER_LADDER, MLBlocks.WAXED_COPPER_LADDER);
