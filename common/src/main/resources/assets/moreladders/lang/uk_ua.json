@@ -1,0 +1,31 @@
+{
+  "modmenu.descriptionTranslation.moreladders": "Додає більше варіантів драбини",
+
+  "block.minecraft.ladder": "Дубова драбина",
+
+  "block.moreladders.spruce_ladder": "Смерекова драбина",
+  "block.moreladders.birch_ladder": "Березова драбина",
+  "block.moreladders.dark_oak_ladder": "Темно-дубова драбина",
+  "block.moreladders.jungle_ladder": "Тропічна драбина",
+  "block.moreladders.acacia_ladder": "Акацієва драбина",
+  "block.moreladders.crimson_ladder": "Багряна драбина",
+  "block.moreladders.warped_ladder": "Химерна драбина",
+  "block.moreladders.chain_ladder": "Ланцюгова драбина",
+  "block.moreladders.iron_ladder": "Залізна драбина",
+  "block.moreladders.cherry_ladder": "Вишнева драбина",
+  "block.moreladders.bamboo_ladder": "Бамбукова драбина",
+  "block.moreladders.mangrove_ladder": "Мангрова драбина",
+  "block.moreladders.gold_ladder": "Золота драбина",
+  "block.moreladders.pale_oak_ladder": "Блідо-дубова драбина",
+  "block.moreladders.copper_ladder": "Мідна драбина",
+  "block.moreladders.exposed_copper_ladder": "Наражена драбина",
+  "block.moreladders.weathered_copper_ladder": "Вивітрена мідна драбина",
+  "block.moreladders.oxidized_copper_ladder": "Окиснена мідна драбина",
+  "block.moreladders.waxed_copper_ladder": "Вощена мідна драбина",
+  "block.moreladders.waxed_exposed_copper_ladder": "Вощена наражена мідна драбина",
+  "block.moreladders.waxed_weathered_copper_ladder": "Вощена вивітрена мідна драбина",
+  "block.moreladders.waxed_oxidized_copper_ladder": "Вощена окиснена мідна драбина",
+
+  "itemGroup.moreladders.main": "MoreLadders",
+  "resourcePack.moreladders.3d_ladders": "3D Ladders"
+}

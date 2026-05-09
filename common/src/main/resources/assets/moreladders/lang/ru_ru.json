@@ -1,0 +1,29 @@
+{
+  "block.minecraft.ladder": "Дубовая лестница",
+
+  "block.moreladders.spruce_ladder": "Еловая лестница",
+  "block.moreladders.birch_ladder": "Березовая лестница",
+  "block.moreladders.dark_oak_ladder": "Лестница из темного дуба",
+  "block.moreladders.jungle_ladder": "Тропическая лестница",
+  "block.moreladders.acacia_ladder": "Лестница из акации",
+  "block.moreladders.crimson_ladder": "Багровая лестница",
+  "block.moreladders.warped_ladder": "Искажённая лестница",
+  "block.moreladders.chain_ladder": "Лестница с цепями",
+  "block.moreladders.iron_ladder": "Железная лестница",
+  "block.moreladders.cherry_ladder": "Вишневая лестница",
+  "block.moreladders.bamboo_ladder": "Бамбуковая лестница",
+  "block.moreladders.mangrove_ladder": "Мангровая лестница",
+  "block.moreladders.gold_ladder": "Золотая лестница",
+  "block.moreladders.pale_oak_ladder": "Pale Oak Ladder",
+  "block.moreladders.copper_ladder": "Медная лестница",
+  "block.moreladders.exposed_copper_ladder": "Потемневшая медная лестница",
+  "block.moreladders.weathered_copper_ladder": "Состарившаяся медная лестница",
+  "block.moreladders.oxidized_copper_ladder": "Окисленная медная лестница",
+  "block.moreladders.waxed_copper_ladder": "Вощёная медная лестница",
+  "block.moreladders.waxed_exposed_copper_ladder": "Вощёная потемневшая медная лестница",
+  "block.moreladders.waxed_weathered_copper_ladder": "Вощёная состарившаяся медная лестница",
+  "block.moreladders.waxed_oxidized_copper_ladder": "Вощёная окисленная медная лестница",
+
+  "itemGroup.moreladders.main": "MoreLadders",
+  "resourcePack.moreladders.3d_ladders": "3D Ladders"
+}
